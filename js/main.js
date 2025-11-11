@@ -219,7 +219,8 @@ $(function() {
             $(this).text('');
 
             for (let i = 0; i < text.length; i++) {
-                innerHTML += `<span class="char" style="animation-delay: ${i * 0.1}s;">${text[i]}</span>`;
+                const char = text[i] === ' ' ? '&nbsp;' : text[i];
+				innerHTML += `<span class="char" style="animation-delay: ${i * 0.1}s;">${char}</span>`;
             }
 
             $(this).html(innerHTML).css('visibility', 'visible');
