@@ -1014,6 +1014,7 @@ h3.marker {
 .bg1 .color-check, .bg1 .color-check a {color: yellow !important;}
 .bg1 .look .color-check, .bg1 .look .color-check a {color: #ff0000 !important;}
 .l {text-align: left !important;}
+.white {color: #fff !important;
 .c {text-align: center !important;}
 .r {text-align: right !important;}
 .ws {width: 95%;display: block;}
@@ -1036,3 +1037,5 @@ h3.marker {
 	.pc {display: block;}
 
 	}/*追加指定ここまで*/
+
+
