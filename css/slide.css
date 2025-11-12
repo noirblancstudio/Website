@@ -26,19 +26,19 @@
 
 /*１枚目画像*/
 .slide1 {
-	background: url('../images/1.jpg') no-repeat center center / cover;	/*１枚目の背景画像の読み込み*/
+	background: url('../images/p1.png') no-repeat center center / cover;	/*１枚目の背景画像の読み込み*/
 }
 
 /*２枚目画像*/
 .slide2 {
-	background: url('../images/2.jpg') no-repeat center center / cover;	/*２枚目の背景画像の読み込み*/
+	background: url('../images/p2.png') no-repeat center center / cover;	/*２枚目の背景画像の読み込み*/
 	justify-content: flex-end;	/*テキストブロックを右側に*/
 	text-align: right;			/*テキストを右寄せ*/
 }
 
 /*３枚目画像*/
 .slide3 {
-	background: url('../images/3.jpg') no-repeat center center / cover;	/*３枚目の背景画像の読み込み*/
+	background: url('../images/p4.png') no-repeat center center / cover;	/*３枚目の背景画像の読み込み*/
 	justify-content: center;	/*テキストブロックを中央に*/
 	text-align: center;			/*テキストをセンタリング*/
 }
